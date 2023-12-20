@@ -1,0 +1,209 @@
+/* css reset */
+
+body, header, nav, footer, main, h1, div, img, ul, li, p {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* hero */
+
+#hero {
+	align-content: center;
+	max-width: fill;
+	background: url("../images/hero-image.png" "../images/hero-image-numb.png" "../images/hero-image-ad.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* body */
+
+body {
+	background-color: #FFE7F7;
+	align-content: space-around;
+}
+
+/* header */
+
+header {
+	text-align: center;
+	padding: 20px;
+}
+
+/* navigation */
+
+nav {
+	border: none;
+	margin: 7em 4em 7em 4em;
+}
+
+nav ul {
+	align-items: center;
+	background-color: none;
+	list-style-type: none;
+	text-align: center;
+}
+
+nav ul li {
+	background-color: none;
+	color: #372948;
+}
+
+/* main */
+#intro h1 {
+	float: left;
+	margin: 3em 4em;
+	background-color: #FFD9F2;
+	font-size: 25px;
+	border-radius: 5em;
+}
+
+#intro {
+	width: 60%;
+	float: left;
+	font-size: 20px;
+	background-color: #FFD9F2;
+	border-radius: 5em;
+	padding: 3%;
+}
+
+/*
+#intro img {
+	float: right;
+}
+*/
+.intro {
+	float: right;
+	width: 30%;
+}
+
+a {
+	color: #f69ad0;
+}
+
+a:hover {
+	color: #D378AD;
+}
+
+#cat {
+	margin: 6em 40em;
+	color: #372948;
+	background-color: #ffcae9;
+}
+#cat p {
+}
+
+
+/* footer */
+
+footer {
+	margin: 30px;
+	
+}
+
+/* img */
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+/* grid */
+
+#container {
+	width: 100%;
+	min-height: 500px;
+}
+
+#presents {
+	display: grid;
+	width: 100%;
+	grid-template-columns: 29% 29% 29%;
+	grid-template-areas:
+		"it1 it2 it3"
+		"it4 it5 it6"
+		"it7 it8 it9";
+	grid-gap: 2%;
+	justify-content: center;
+	background-color: #FFBBE7;
+}
+
+#item1 {
+	background-color: #554d52;
+	background-image: url(../images/tyler.jpeg);
+	background-size: cover;
+	background-position: center;
+	min-height: 400px;
+	grid-area: it1;
+}
+#item2 {
+	background-color: #554d52;
+	background-image: url(../images/money.jpeg);
+	background-position: center;
+	min-height: 400px;
+	grid-area: it2;
+}
+#item3 {
+	background-color: #554d52;
+	background-image: url(../images/doom.png);
+	background-position: center;
+	background-size: contain;
+	min-height: 400px;
+	grid-area: it3;
+}
+#item4 {
+	background-color: #554d52;
+	background-image: url(../images/sprite.jpeg);
+	background-position: center;
+	background-size: contain;
+	min-height: 400px;
+	grid-area: it4;
+}
+#item5 {
+	background-color: #554d52;
+	background-image: url(../images/fishie.jpeg);
+	min-height: 400px;
+	grid-area: it5;
+}
+#item6 {
+	background-color: #554d52;
+	background-image: url(../images/shein.png);
+	background-position: center;
+	min-height: 400px;
+	grid-area: it6;
+}
+#item7 {
+	background-color: #554d52;
+	background-image: url(../images/sanrio.png);
+	background-size: contain;
+	min-height: 400px;
+	grid-area: it7;
+}
+#item8 {
+	background-color: #554d52;
+	background-image: url(../images/mansion.png);
+	background-size: contain;
+	min-height: 400px;
+	grid-area: it8;
+}
+#item9 {
+	background-color: #554d52;
+	background-image: url(../images/pizzagirl.jpeg);
+	background-size: contain;
+	min-height: 400px;
+	grid-area: it9;
+}
+
+
+/*
+					tyler the creator
+					a lot of money
+					mm.. food by MF DOOM on vinyl
+					sprite
+					goldfish
+					clothes many clothes
+					aboslutely anything sanrio related
+					a pretty old victorian mansion with a gate and only i can let people in
+					a waitressing job at pizza hut
+
+*/
